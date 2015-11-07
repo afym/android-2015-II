@@ -13,9 +13,18 @@
             android:label="@string/app_name"
             android:theme="@style/AppTheme.NoActionBar" >
             <intent-filter>
+
+                <!-- Filtros : -->
                 <action android:name="android.intent.action.MAIN" />
+
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
+        </activity>
+        <activity android:name=".MiPrimeraActividad" >
+        </activity>
+        <activity android:name=".AritmeticaActivity" >
+        </activity>
+        <activity android:name=".ResultadoActivity" >
         </activity>
     </application>
 
