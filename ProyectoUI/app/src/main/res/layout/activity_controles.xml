@@ -13,6 +13,7 @@
         android:layout_height="wrap_content" />
 
     <RadioGroup
+        android:id="@+id/radios"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_below="@+id/miboton"
@@ -32,4 +33,30 @@
             android:text="No" />
 
     </RadioGroup>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/radios"
+        android:orientation="horizontal">
+
+        <CheckBox
+            android:id="@+id/gusto_a"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Tenis" />
+
+        <CheckBox
+            android:id="@+id/gusto_b"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Leer" />
+
+        <CheckBox
+            android:id="@+id/gusto_c"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Cine" />
+    </LinearLayout>
+
 </RelativeLayout>

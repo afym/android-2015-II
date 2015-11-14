@@ -8,6 +8,8 @@ import android.widget.RadioButton;
 import android.util.Log;
 import android.widget.Toast;
 
+import com.github.pierry.simpletoast.SimpleToast;
+
 
 public class ControlesActivity extends AppCompatActivity {
     private RadioButton si;
@@ -32,7 +34,8 @@ public class ControlesActivity extends AppCompatActivity {
         this.si.setOnClickListener(new OnClickListener() {
             @Override
             public void onClick(View v) {
-                Toast.makeText(actividad, "Click", Toast.LENGTH_LONG).show();
+                SimpleToast.muted(actividad, "Una prueba");
+                //Toast.makeText(actividad, "Click", Toast.LENGTH_LONG).show();
             }
         });
     }
