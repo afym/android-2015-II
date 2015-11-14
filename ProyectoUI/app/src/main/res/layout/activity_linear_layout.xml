@@ -16,11 +16,15 @@
         android:id="@+id/mitexto"
         android:textColor="#FFAB45"
         android:textAllCaps="true"
+        android:textSize="20sp"
+        android:hint="Tu nombre"
+        android:inputType="textNoSuggestions"
         android:layout_width="132dp"
         android:layout_height="wrap_content" />
 
     <EditText
         android:id="@+id/mitexto2"
+        android:textSize="20sp"
         android:hint="Tu password"
         android:inputType="textPassword"
         android:layout_width="132dp"
@@ -45,10 +49,13 @@
         android:layout_height="match_parent">
 
         <ImageView
+            android:id="@+id/apple"
             android:src="@drawable/apple"
             android:layout_margin="10dp"
+            android:scaleType="fitXY"
             android:layout_width="wrap_content"
-            android:layout_height="wrap_content" />
+            android:layout_height="wrap_content"
+            android:maxHeight="100dp" />
 
         <ImageView
             android:src="@drawable/windows"

@@ -10,6 +10,10 @@
         android:theme="@style/AppTheme" >
         <activity android:name=".LinearLayoutActivity" >
         </activity>
+        <activity android:name=".ControlesActivity" >
+        </activity>
+        <activity android:name=".GoogleRelativeLayout" >
+        </activity>
     </application>
 
 </manifest>
