@@ -14,6 +14,8 @@
         </activity>
         <activity android:name=".GoogleRelativeLayout" >
         </activity>
+        <activity android:name=".ListaSocialActivity" >
+        </activity>
     </application>
 
 </manifest>
