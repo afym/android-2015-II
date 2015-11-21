@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">MyLogin</string>
+    <string name="main_user">User:</string>
+    <string name="main_password">Password:</string>
+    <string name="main_button">Login</string>
+    <string name="main_error">Incorrect credentials ...</string>
+    <string name="menu_welcome">Welcome {name} !!</string>
+</resources>
