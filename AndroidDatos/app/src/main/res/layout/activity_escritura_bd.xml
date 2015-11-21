@@ -1,0 +1,74 @@
+<TableLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.laboratorio04.activities.EscrituraBDActivity">
+
+<TableRow
+    android:id="@+id/tableRow1"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    >
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Correo:"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+    />
+
+    <EditText
+        android:id="@+id/txtCorreo"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:inputType="textEmailAddress"
+    />
+</TableRow>
+
+<TableRow
+    android:id="@+id/tableRow2"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    >
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Clave:"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        />
+
+    <EditText
+        android:id="@+id/txtClave"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:inputType="textPassword"
+        />
+</TableRow>
+
+<TableRow
+    android:id="@+id/tableRow3"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    >
+
+    <LinearLayout
+        android:layout_height="wrap_content"
+        android:layout_width="wrap_content"
+        android:orientation="vertical"
+        >
+
+        <Button
+            android:text="Guardar"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:onClick="guardar"/>
+
+        <Button
+            android:text="Continuar"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:onClick="continuar"/>
+    </LinearLayout>
+</TableRow>
+</TableLayout>

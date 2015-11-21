@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">Laboratorio04</string>
+    <string name="title_activity_escritura_bd">EscrituraBDActivity</string>
+
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+    <string name="title_activity_lectura_bd">LecturaBDActivity</string>
+    <string name="title_activity_main">MainActivity</string>
+    <string name="title_activity_escritura_preferencia">EscrituraPreferenciaActivity</string>
+    <string name="title_activity_leer_preferencia">LeerPreferenciaActivity</string>
+</resources>

@@ -1,0 +1,33 @@
+<LinearLayout
+xmlns:android="http://schemas.android.com/apk/res/android"
+xmlns:tools="http://schemas.android.com/tools"
+android:id="@+id/LinearLayout1"
+android:layout_width="match_parent"
+android:layout_height="match_parent"
+android:orientation="vertical"
+tools:context="com.laboratorio04.activities.EscrituraPreferenciaActivity" >
+
+<EditText
+    android:id="@+id/editText1"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_alignParentRight="true"
+    android:layout_alignParentTop="true"
+    android:ems="10"
+    android:hint="Escriba aquí..."
+    >
+    <requestFocus />
+</EditText>
+<Button
+    android:id="@+id/button1"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:text="Guardar preferencia"
+    android:onClick="guardarPreferencia" />
+<Button
+    android:id="@+id/button2"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:text="Continuar"
+    android:onClick="continuar" />
+</LinearLayout>
