@@ -43,6 +43,7 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_marginBottom="@dimen/main_margin_bottom"
+                android:textStyle="bold"
                 android:text="@string/main_user"
                 android:textSize="@dimen/text_size" />
 
@@ -56,6 +57,7 @@
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
+                android:textStyle="bold"
                 android:layout_marginBottom="@dimen/main_margin_bottom"
                 android:text="@string/main_password" />
 

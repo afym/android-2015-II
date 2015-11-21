@@ -5,4 +5,15 @@
     <string name="main_button">Login</string>
     <string name="main_error">Incorrect credentials ...</string>
     <string name="menu_welcome">Welcome {name} !!</string>
+    <string name="form_name">Name</string>
+    <string name="form_number">Phone number</string>
+    <string name="form_gender">Gender</string>
+    <string name="form_man">Man</string>
+    <string name="form_woman">Woman</string>
+    <string name="form_likes">Likes</string>
+    <string name="form_like_a">Play tennis</string>
+    <string name="form_like_b">Watch TV</string>
+    <string name="form_like_c">Go out with my friends</string>
+    <string name="form_description">Description</string>
+    <string name="form_save">Save</string>
 </resources>
