@@ -1,0 +1,46 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="20dp"
+    tools:context="com.lab02.m02.TextViewActivity">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="#00ff00"
+        android:text="@string/hello_world"
+        android:textColor="#ff00ff"
+        android:textColorHighlight="#000000"
+        android:textIsSelectable="true"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/another_text"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:autoLink="all"
+        android:clickable="true"
+        android:fontFamily="Arial"
+        android:lines="2"
+        android:paddingLeft="10dp"
+        android:text="@string/otro_texto"
+        android:textSize="20sp"
+        android:typeface="serif" />
+
+    <TextView
+        android:id="@+id/textView1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:shadowColor="#182282"
+        android:shadowDx="3.5"
+        android:shadowDy="3.5"
+        android:shadowRadius="8.0"
+        android:text="@string/texto_sombra"
+        android:textAllCaps="true"
+        android:layout_gravity="center_horizontal"
+        android:textSize="40sp"
+        android:textColor="#0000ff" />
+</LinearLayout>

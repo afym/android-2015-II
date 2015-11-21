@@ -1,0 +1,31 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.lab02.m02.ButtonActivity">
+
+    <Button
+        android:id="@+id/button_1"
+        android:text="@string/button_normal"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:onClick="onClick1" />
+
+    <ToggleButton
+        android:id="@+id/button_2"
+        android:text="@string/button_toggle"
+        android:textOn="button_toggle_on"
+        android:textOff="button_toggle_off"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:onClick="onClick2" />
+
+    <ImageButton
+        android:id="@+id/button_3"
+        android:src="@drawable/abc_btn_check_to_on_mtrl_015"
+        android:contentDescription="@string/button_image"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:onClick="onClick3" />
+</LinearLayout>

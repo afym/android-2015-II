@@ -1,0 +1,50 @@
+<resources>
+    <string name="app_name">Lab02M02</string>
+    <string name="title_activity_main">MainActivity</string>
+
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+    <string name="title_activity_text_view">TextViewActivity</string>
+    <string name="otro_texto">Another TextView</string>
+    <string name="texto_sombra">TextView</string>
+    <string name="title_activity_button">ButtonActivity</string>
+    <string name="button_normal">Boton normal</string>
+    <string name="button_toggle">Toggle normal</string>
+    <string name="button_toggle_on">Toggle on</string>
+    <string name="button_toggle_off">Toggle off</string>
+    <string name="button_image">Alguna descripcion</string>
+    <string name="title_activity_form">FormActivity</string>
+    <!-- form -->
+    <string name="form_nombre">Nombre y Apellidos :</string>
+    <string name="form_telefono">Número de teléfono :</string>
+    <string name="form_gustos">Gustos :</string>
+    <string name="form_gustos_a">Películas</string>
+    <string name="form_gustos_b">Video Juegos</string>
+    <string name="form_gustos_c">Deportes</string>
+    <string name="form_genero">Género</string>
+    <string name="form_genero_f">Femenino</string>
+    <string name="form_genero_m">Masculino</string>
+    <string name="form_descripcion">Descripción :</string>
+    <string name="form_enviar">Enviar</string>
+    <string name="title_activity_search_form">SearchFormActivity</string>
+    <!-- SearchForm -->
+    <string name="form_destino">Destino :</string>
+    <string name="form_fecha">Fecha de vuelo : </string>
+    <string name="form_hora">Hora de vuelo : </string>
+    <string name="form_buscar">Buscar</string>
+    <string name="title_activity_movie_form">MovieFormActivity</string>
+    <!-- MovieForm -->
+    <string name="form_pelicula">Película</string>
+    <string name="form_entrada">Entradas</string>
+    <string name="form_servicio">Servcio extra</string>
+    <string name="form_cine_on">Incluido</string>
+    <string name="form_cine_off">No includo</string>
+    <string name="form_comprando">Comprando</string>
+    <string name="form_consultando">Consultando</string>
+    <string name="form_cine_comprar">Comprar</string>
+    <string name="form_cine_consultar">Consultar</string>
+    <string name="title_activity_album">AlbumActivity</string>
+    <string name="title_activity_album_one">AlbumOneActivity</string>
+    <string name="title_activity_album_two">AlbumTwoActivity</string>
+    <string name="title_activity_menu">MenuActivity</string>
+</resources>
