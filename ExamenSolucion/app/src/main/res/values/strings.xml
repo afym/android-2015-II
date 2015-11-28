@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">PersonalNote</string>
+    <string name="save_note">Your message was saved!</string>
+    <string name="main_no_notes">No notes :(</string>
+</resources>

@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:paddingLeft="@dimen/list_view_horizontal_padding"
+    android:paddingRight="@dimen/list_view_horizontal_padding"
+    android:paddingTop="@dimen/list_view_vertical_padding"
+    android:paddingEnd="@dimen/activity_vertical_margin"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <View
+        android:id="@+id/note_color"
+        android:layout_width="4dp"
+        android:layout_height="25dp"
+        android:background="#FF0000FF" />
+
+    <ImageView
+        android:id="@+id/note_icon"
+        android:src="@drawable/note_logo"
+        android:layout_width="20dp"
+        android:layout_height="20dp"
+        android:layout_alignParentTop="true"
+        android:layout_toEndOf="@+id/note_color"
+        android:layout_marginStart="18dp" />
+
+    <TextView
+        android:id="@+id/note_title"
+        android:text="Alguna nota arbitraria"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerVertical="true"
+        android:layout_toEndOf="@+id/note_icon"
+        android:layout_marginStart="18dp" />
+    
+    <TextView
+        android:id="@+id/note_id"
+        android:visibility="gone"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+</RelativeLayout>
