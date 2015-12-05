@@ -55,6 +55,26 @@
             android:onClick="irHaciaGoolge"
             android:layout_width="match_parent"
             android:layout_height="wrap_content" />
+        <Button
+            android:text="Acelerometro"
+            android:onClick="lanzarAcelerometro"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+
+        <Button
+            android:text="GPS"
+            android:onClick="lanzarGPS"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+
+
+        <Button
+            android:text="Brujula"
+            android:onClick="brujula"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+
+
 
         <ImageView
             android:id="@+id/foto"

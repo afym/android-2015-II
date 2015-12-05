@@ -89,4 +89,19 @@ public class MainActivity extends AppCompatActivity {
         i.setData(Uri.parse(url));
         startActivity(i);
     }
+
+    public void lanzarAcelerometro(View view){
+        Intent intent = new Intent(this, AccelerometerActivity.class);
+        this.startActivity(intent);
+    }
+
+    public void lanzarGPS(View view){
+        Intent intent = new Intent(this, GPSActivity.class);
+        this.startActivity(intent);
+    }
+
+    public void brujula(View view){
+        Intent intent = new Intent(this, CompassActivity.class);
+        this.startActivity(intent);
+    }
 }
