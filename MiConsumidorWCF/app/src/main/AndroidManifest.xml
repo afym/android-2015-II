@@ -11,7 +11,8 @@
         android:label="@string/app_name"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-        <activity android:name=".ConversorActivity"></activity>
+        <activity android:name=".ConversorActivity" />
+        <activity android:name=".ConsumirPaisesLogActivity"></activity>
     </application>
 
 </manifest>
